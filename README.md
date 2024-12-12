@@ -18,27 +18,31 @@ Files and Scripts
 
     3_Preprocessing_for_numerical_feature_selection.py: After selecting categorical features, this script preprocesses the data required for the next step: continuous feature selection.
 
-5. Model Training After Feature Selection
+5. Preprocessing for Numerical Feature Selection
+
+    4_Continuous_feature_selection.py: This script performs continuous feature selection using the FOrward greedy algorithm. It selects the most relevant continuous/numerical features for the model.
+
+6. Model Training After Feature Selection
 
     5_Train_model_after_feature_selection.py: Trains the model after feature selection. It evaluates different classification algorithms and validates both internally and externally.
 
-6. Plot ROC and Feature Importance (Original Data)
+7. Plot ROC and Feature Importance (Original Data)
 
     6_Plot_original_data_feature_importance_and_ROC.py: This script plots the ROC curve and feature importance for the original dataset (before balancing).
 
-7. Balancing Data and Training Model
+8. Balancing Data and Training Model
 
     7_Balance_data_Train_model_after_feature_selection.py: Balances the dataset by adjusting the ratio of positive to negative classes (1:2) using SMOTE, and then trains the model using different classifiers, validated internally and externally.
 
-8. Plot ROC and Feature Importance (Balanced Data)
+9. Plot ROC and Feature Importance (Balanced Data)
 
     8_Plot_balance_data_feature_importance_and_ROC.py: Plots the ROC curve and feature importance for the balanced dataset created by the previous script (7).
 
-9. Plot LR Curve and Feature Importance
+10. Plot LR Curve and Feature Importance
 
     9_Plot_LR_curve_and_Feature_Importance.py: This script plots Likelihood Ratio (LR) curves and feature importance for both the original and balanced datasets.
 
-10. Plot Feature Distribution of Selected Features
+11. Plot Feature Distribution of Selected Features
 
     10_Plot_feature_distribution_of_selected_features.py: Plots the distribution of only the selected features from the feature selection step.
 
